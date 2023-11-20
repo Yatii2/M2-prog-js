@@ -12,6 +12,15 @@ class App
         this.copyright = "Yati"
         this.distributeur = "Yati"
         this.darkmode = true
+        let boolean = false
+        let number = 2
+        let string = "hoi"
+        this.boolean2 = false
+        this.number2 = 3
+        this.string = "doei"
+        console.log(boolean);
+        console.log(number);
+        console.log(string);
 
     }
 }
@@ -27,3 +36,6 @@ console.log("autheur: "+app.autheur);
 console.log("copyright: "+app.copyright);
 console.log("distrubiteur: "+app.distributeur);
 console.log("darkmode: " + app.darkmode);
+console.log(app.boolean2);
+console.log(app.number2);
+console.log(app.string2);
