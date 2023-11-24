@@ -10,7 +10,7 @@ class App
         g.fillStyle = "#FF0000";
         g.fillRect(0,0,canvas.width,canvas.height);
 
-        g.fillStyle = "#000000";
+        g.fillStyle = "blue";
         g.fillRect(0,0,10,10);
        
         

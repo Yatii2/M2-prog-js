@@ -6,12 +6,16 @@ class App
         console.log("hello word!");
         let canvas = document.getElementById("canvaId");
         let g = canvas.getContext("2d");
-        console.log(canvas);
-        g.fillStyle = "#FF0000";
-        g.fillRect(0,0,canvas.width,canvas.height);
+        g.beginPath()
+        g.fillStyle = "yellow";
+        g.moveTo(20,20);
+        g.lineTo(300,300);
+        g.lineTo(580,20);
+        g.closePath();
+        g.stroke();
+        g.fill()
 
-        g.fillStyle = "#000000";
-        g.fillRect(0,0,10,10);
+        console.log(canvas);
        
         
         
