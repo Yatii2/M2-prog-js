@@ -6,6 +6,7 @@ class App
         console.log("hello word!");
         let canvas = document.getElementById("canvaId");
         let g = canvas.getContext("2d");
+        
 
         //dak//
         g.beginPath();
@@ -19,16 +20,12 @@ class App
         g.stroke();
         g.fill()
         
-        
         g.beginPath()
         g.moveTo(800,300);
         g.lineTo(700,200);
         g.closePath();
         g.stroke();
         g.fill()
-
-        
-
 
         //muur
         g.beginPath()
@@ -40,8 +37,7 @@ class App
         g.closePath();
         g.stroke();
         g.fill()
-        
-        
+         
         //deur muur
         g.beginPath()
         g.fillStyle = "white";
@@ -53,10 +49,16 @@ class App
         g.stroke();
         g.fill()
 
-       
         //raam
+       
         g.beginPath()
-        g.fillStyle = "yellow";
+         let randomGetal = Math.random();
+        if(randomGetal < 0.5){
+            g.fillStyle = "yellow";
+        }else{
+            g.fillStyle = "black";
+        }
+        console.log(randomGetal)
         g.moveTo(300,500);
         g.lineTo(500,550);
         g.lineTo(500,400);
@@ -65,8 +67,6 @@ class App
         g.stroke();
         g.fill()
         
-       
-
         //deur
         g.beginPath()
         g.fillStyle = "#562b00";
