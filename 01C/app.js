@@ -12,6 +12,8 @@ class App
         this.copyright = "Yati"
         this.distributeur = "Yati"
         this.darkmode = true
+
+    
         let boolean = false
         let number = 2
         let string = "hoi"

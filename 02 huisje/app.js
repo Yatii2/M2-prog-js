@@ -6,30 +6,33 @@ class App
         console.log("hello word!");
         let canvas = document.getElementById("canvaId");
         let g = canvas.getContext("2d");
-        g.beginPath()
+
+        g.beginPath();
+        g.fillStyle = "#622";
         g.moveTo(300,100);
         g.lineTo(200,300);
-        g.closePath();
-        g.stroke();
-        g.fill()
-
-        g.beginPath()
-        g.moveTo(700,200);
         g.lineTo(600,400);
+        g.lineTo(700,200);
+        g.lineTo(300,100);
+        g.closePath();
+        g.stroke();
+        g.fill()
+        
+        
+        g.beginPath()
+        g.moveTo(800,300);
+        g.lineTo(700,200);
         g.closePath();
         g.stroke();
         g.fill()
 
+        
+
+
+        
         g.beginPath()
         g.moveTo(200,300);
         g.lineTo(200,500);
-        g.closePath();
-        g.stroke();
-        g.fill()
-
-        g.beginPath()
-        g.moveTo(200,300);
-        g.lineTo(600,400);
         g.closePath();
         g.stroke();
         g.fill()
@@ -49,8 +52,8 @@ class App
         g.fill()
 
         g.beginPath()
-        g.moveTo(800,300);
-        g.lineTo(700,200);
+        g.moveTo(600,400);
+        g.lineTo(800,300);
         g.closePath();
         g.stroke();
         g.fill()
@@ -69,19 +72,9 @@ class App
         g.stroke();
         g.fill()
 
-        g.beginPath()
-        g.moveTo(600,400);
-        g.lineTo(800,300);
-        g.closePath();
-        g.stroke();
-        g.fill()
+        
 
-        g.beginPath()
-        g.moveTo(300,100);
-        g.lineTo(700,200);
-        g.closePath();
-        g.stroke();
-        g.fill()
+        
 
         g.beginPath()
         g.moveTo(300,500);
