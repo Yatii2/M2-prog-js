@@ -48,20 +48,32 @@ class App
     {
         console.log("hello world!");
     }
-    newClassFunction()
+    marioFunction()
     {
-        console.log("hello world in de nieuwClassFunction");
+        console.log("MARIO!!");
     }
-    anotherFunctionWithArguments(aArgument)
+    laughFunction()
     {
-        console.log("kom maar met je argument");
-        console.log("hier:");
-        console.log(aArgument);
+        return "BWAHAHA!!!";
     }
-
+    optellen(getal1, number1)
+    {
+        return getal1 + number1;
+    }
+    min(getal2, number2)
+    {
+        return getal2 - number2;
+    }
 }
 
 let app = new App();
 app.runApplication();
-app.newClassFunction();
-app.anotherFunctionWithArguments("mijn argument is iets...");
+app.marioFunction();
+let ha = app.laughFunction();
+let plus = app.optellen(6, 5);
+let minus = app.min(5,6);
+console.log(ha);
+console.log(plus);
+console.log(minus);
+
+
