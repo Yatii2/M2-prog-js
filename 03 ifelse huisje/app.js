@@ -50,7 +50,6 @@ class App
         g.fill()
 
         //raam
-       
         g.beginPath()
          let randomGetal = Math.random();
         if(randomGetal < 0.5){
