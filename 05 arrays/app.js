@@ -39,6 +39,19 @@ class App
             const element = nummers[i] +=1;
             console.log(element);
         }
+
+        let headersByCssClass = document.getElementsByClassName("badName");
+        for(let i = 0; i < headersByCssClass.length; i++){
+            headersByCssClass[i].innerText ="hoi";
+           
+        }
+        headersByCssClass[0].innerText = "nieuws ";
+        headersByCssClass[1].innerText = "reviews";
+        headersByCssClass[2].innerText = "commentaar ";
+        headersByCssClass[3].innerText = "blablal";
+        headersByCssClass[4].innerText = "aksdjawj ";
+        headersByCssClass[5].innerText = "wow";
+
     }
 }
 
