@@ -10,6 +10,7 @@ class Greet
 {
     constructor()
     {
+        this.greeting = "Greetings!";
     }
     
     showGreeting()
@@ -22,6 +23,7 @@ class Goodbye
 {
     constructor()
     {
+        this.farewell = "Bye bye!";
     }
 
     showGoodbye()
@@ -35,14 +37,18 @@ let greet = new Greet();
 greet.showGreeting();
 let bye = new Goodbye();
 bye.showGoodbye();
+
+greet.showGreeting();
+bye.showGoodbye();
+
+greet.showGreeting();
+bye.showGoodbye();
+
+greet.showGreeting();
+bye.showGoodbye();
+
+console.log("greetings van buiten: "+greet.greeting);
+console.log("goodbye van buiten: "+bye.farewell);
+
 let app = new App();
 app.runApplication();
-
-greet.showGreeting();
-bye.showGoodbye();
-
-greet.showGreeting();
-bye.showGoodbye();
-
-greet.showGreeting();
-bye.showGoodbye();
