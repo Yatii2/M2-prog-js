@@ -7,7 +7,26 @@ class App
 
         uiButton.addEventListener("click", (e)=>
         {
-            console.log("click!");
+            const para = document.createElement("p");
+            const node = document.createTextNode("This is new.");
+            para.appendChild(node);
+            document.body.appendChild(para);
+        });
+
+        let Knop = document.getElementById("knopje");
+
+        Knop.addEventListener("click", (e)=>
+        {
+            const header = document.createElement("h1");
+            const text = document.createTextNode("meow");
+            const para = document.createElement("p");
+            const node = document.createTextNode("This is new.");
+            const img = document.getElementById("img");
+            header.appendChild(text);
+            document.body.appendChild(header);
+            para.appendChild(node);
+            document.body.appendChild(para);
+            document.body.appendChild(img);
         });
     }
 }
