@@ -15,7 +15,7 @@ class Greet
     
     showGreeting()
     {
-        console.log("Greetings!");
+        console.log(this.greeting);
     }
 }
 
@@ -28,7 +28,7 @@ class Goodbye
 
     showGoodbye()
     {
-        console.log("Bye bye!");
+        console.log(this.farewell);
     }
 }
 
