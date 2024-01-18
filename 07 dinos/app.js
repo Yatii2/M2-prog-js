@@ -38,8 +38,8 @@ class Dino
         foodToEat.leeft=false;
         this.honger=false;
         console.log("ik ben een " + this.naam)
-        console.log("mijn honger: " + this.honger)
         console.log("ik eet nu " + foodToEat.naam)
+        console.log("mijn honger: " + this.honger)
         
     }
 }

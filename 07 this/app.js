@@ -3,12 +3,12 @@ class App
     runApplication()
     {
         console.log("hello world!");
-        let user1 = new User("test");
-        let user2 = new User;
-        let user3 = new User;
-        let user4 = new User;
-        let user5 = new User;
-        let user6 = new User;
+        let sunny = new User("SunnyDreamer");
+        let swift = new User("SwiftBreeze");
+        let cozy = new User("CozyPixel");
+        let blaze = new User("BlazeJumper");
+        let aqua = new User("AquaWhisper");
+        let luna = new User("LunaGlider");
     }
 }
 
@@ -17,10 +17,11 @@ class User
     constructor(name)
     {
         this.name = name;
-        function wieBenIk()
-        {
-            console.log(this.name)
-        }
+    }
+
+    wieBenIk()
+    {
+        console.log(this.naam)
     }
 }
 
