@@ -9,6 +9,12 @@ class App
         let blaze = new User("BlazeJumper");
         let aqua = new User("AquaWhisper");
         let luna = new User("LunaGlider");
+        sunny.wieBenIk();//SunnyDreamer goed
+        swift.wieBenIk();//SwiftBreeze goed
+        cozy.wieBenIk();//CozyPixel goed
+        blaze.wieBenIk();//BlazeJumper goed
+        aqua.wieBenIk();//AquaWhisper goed
+        luna.wieBenIk();//LunaGlider goed
     }
 }
 
@@ -21,7 +27,7 @@ class User
 
     wieBenIk()
     {
-        console.log(this.naam)
+        console.log(this.name)
     }
 }
 
